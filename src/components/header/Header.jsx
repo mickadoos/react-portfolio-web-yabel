@@ -3,7 +3,7 @@ import React from "react";
 import "./Header.css";
 import CTA from './CTA.jsx' // 7.0 import the CTA component and use it 
 import HeaderSocial from "./HeaderSocials";
-
+import About from '../about/About.jsx';
 const Header = () => {
   return (
     <header>
@@ -16,16 +16,16 @@ const Header = () => {
         <CTA/>
         <HeaderSocial/>
         {/* // 7.1 use a profile image imported from assets folder  */}
-        <div className="me">
+        {/* <div className="me">
           <img src='' alt="" />
-        </div>
+        </div> */}
 
         {/* // 7.2 anchor link to scroll down the page  */}
         <a href="#contact" className="scroll__down">
           Scroll Down
         </a>
-
       </div>
+      <About/>
     </header>
   );
 };
