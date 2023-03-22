@@ -5,9 +5,8 @@ import "./Contact.css";
 const Contact = () => {
   
   return (
-    <div>
-      
-    </div>
+    <section id='contact'>Contact</section> // 10.2 chanmge all components to a section parent container with his correspondent id
+
   );
 };
 

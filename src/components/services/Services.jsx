@@ -5,9 +5,8 @@ import "./Services.css";
 
 const Services = () => {
   return (
-    <div>
-  
-    </div>
+    <section id='services'>Services</section> // 10.2 chanmge all components to a section parent container with his correspondent id
+
   );
 };
 

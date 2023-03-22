@@ -6,9 +6,8 @@ import "./Testimonials.css";
 const Testimonials = () => {
   
   return (
-    <div>
-  
-    </div>
+    <section id='testimonials'>Testimonials</section> // 10.2 chanmge all components to a section parent container with his correspondent id
+
   );
 };
 

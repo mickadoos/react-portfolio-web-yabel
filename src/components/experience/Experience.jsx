@@ -4,9 +4,8 @@ import "./Experience.css";
 
 const Experience = () => {
   return (
-    <div>
-      
-    </div>
+    <section id='experience'>Experience</section> // 10.2 chanmge all components to a section parent container with his correspondent id
+
   );
 };
 

@@ -8,9 +8,8 @@ const Portfolio = () => {
  
 
   return (
-    <div>
-  
-    </div>
+    <section id='portfolio'>Portfolio</section> // 10.2 chanmge all components to a section parent container with his correspondent id
+
   );
 };
 
