@@ -3,10 +3,11 @@ import React from "react";
 import "./Header.css";
 import CTA from './CTA.jsx' // 7.0 import the CTA component and use it 
 import HeaderSocial from "./HeaderSocials";
-import About from '../about/About.jsx';
+
 const Header = () => {
   return (
     <header>
+    
       <div className="container header__container">
         {/* // 5.0 wrap the component with header tag. Type: .container.header__container, and press tab to create a div with this class naming convention*/}
         {/* // 5.0 This naming convention is called bim, for css classes*/}
@@ -25,7 +26,8 @@ const Header = () => {
           Scroll Down
         </a>
       </div>
-      <About/>
+       
+    
     </header>
   );
 };

@@ -11,8 +11,8 @@ const About = () => {
   return (
     // 10.2 chanmge all components to a section parent container with his correspondent id
     <section id="about">  
-      {/* <h5>Get To Know</h5>
-      <h2>About Me</h2> */}
+      <h5>Get To Know</h5>
+      <h2>About Me</h2> 
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">
