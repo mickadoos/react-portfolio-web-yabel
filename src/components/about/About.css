@@ -1,5 +1,7 @@
 #about > h2, #about > h5 {
   text-align: start;
+  /* margin-left: 50px; */
+  padding-left: 50px;
 }
 
 #about > h2 {
@@ -144,6 +146,7 @@
 
   .about__me-image a:hover {
     letter-spacing: 0.2em;
+    color: #070a1c;
   }
   
   /* .about__me-image:hover {
@@ -207,6 +210,7 @@
   align-items: center;
   gap: 0.8rem;
   position: absolute;
+  margin-left: 2.5rem;
   left: 0;   
   bottom: 3rem;
 }
@@ -222,6 +226,7 @@
 
 .scroll__down {
   position: absolute;
+  margin-right: 2.5rem;
   right: -2.3rem;
   bottom: 5rem;
   transform: rotate(90deg);
@@ -231,7 +236,7 @@
 
   
   /* ================= MEDIA QUERIES (MEDIUM DEVICES) ============== */
-  @media screen and (max-width: 1024px) {
+  @media screen and (max-width: 1160px) {
       .about__container {
           grid-template-columns: 1fr;
           gap: 0;
@@ -250,7 +255,7 @@
   /* ================= MEDIA QUERIES (SMALL DEVICES) ============== */
   @media screen and (max-width: 600px) {
       .about__me {
-          width: 65%;
+          width: 100%;
           margin: 0 auto 3rem;
       }
       
@@ -266,5 +271,10 @@
       .about__content p {
           margin: 1.5rem 0;
       }
+
+      .header__socials,
+    .scroll__down {
+        display: none;
+    }
   }
   
