@@ -68,7 +68,7 @@ body {
 
 /* // 4.8 all the components will be wrapped by sections */
  section {
-    margin-top: 8rem;
+    margin-top: 5rem;
  }
  section > h2, section > h5 {
     text-align: center;

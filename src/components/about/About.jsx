@@ -1,22 +1,26 @@
-// 3.0 create all components folders with .jsx file and .css --- then on .jsx file type racfe, press tab and import the .css file 
+// 3.0 create all components folders with .jsx file and .css --- then on .jsx file type racfe, press tab and import the .css file
 import React from "react";
 import "./About.css";
 import ME from "../../assets/foto-yabel.JPG";
+import CTA from "../header/CTA.jsx"; // 7.0 import the CTA component and use it
+import HeaderSocial from "../header/HeaderSocials.jsx";
 import { FaAward } from "react-icons/fa";
 import { FiUsers } from "react-icons/fi";
 import { VscFolderLibrary } from "react-icons/vsc";
 
-
 const About = () => {
   return (
     // 10.2 chanmge all components to a section parent container with his correspondent id
-    <section id="about">  
-      <h5>Get To Know</h5>
-      <h2>About Me</h2> 
+    <section id="about">
+      <h5>Hi I'm</h5>
+      <h2>Yabel Rodríguez</h2>
       <div className="container about__container">
+
         <div className="about__me">
           <div className="about__me-image">
             <img src={ME} alt="" />
+            <h2>Yabel Rodriguez<br></br><span>Full Stack Developer</span></h2>
+            <a href="# ">Hire me</a>
           </div>
         </div>
 
@@ -46,7 +50,13 @@ const About = () => {
             reiciendis molestiae, ea magni?
           </p>
 
-          <a href="#contact" className="btn btn-primary">Let's Talk</a>
+          {/* <a href="#contact" className="btn btn-primary">Let's Talk</a> */}
+          <CTA />
+          <HeaderSocial />
+
+          <a href="#contact" className="scroll__down">
+            Scroll Down
+          </a>
         </div>
       </div>
     </section>
