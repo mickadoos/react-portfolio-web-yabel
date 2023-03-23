@@ -1,7 +1,6 @@
 #about > h2, #about > h5 {
   text-align: start;
-  /* margin-left: 50px; */
-  padding-left: 50px;
+  margin-left: 10%;
 }
 
 #about > h2 {
@@ -18,7 +17,7 @@
 }
 .about__container {
     display: grid;
-    grid-template-columns: 35% 50%;
+    grid-template-columns: 50% 35%;
     gap: 15%;
   }
   
@@ -238,24 +237,45 @@
   /* ================= MEDIA QUERIES (MEDIUM DEVICES) ============== */
   @media screen and (max-width: 1160px) {
       .about__container {
-          grid-template-columns: 1fr;
-          gap: 0;
+          grid-template-columns: 1fr 1.5fr;
+          gap: 5%;
       }
   
-      .about__me {
+      /* .about__me {
           width: 50%;
           margin: 2rem auto 4rem;
-      }
+      } */
   
       .about__content p {
           margin: 1rem 0 1.5rem;
       }
   }
+
+  /* @media screen and (max-width: 990px) {
+    .about__container {
+        grid-template-columns: 1fr 1.5fr;
+        gap: 5%;
+    }
+
+     .about__me {
+      width: 50%;
+      height: 50%;
+        margin: 2rem auto 4rem;
+    } 
+
+    .about__content p {
+        margin: 1rem 0 1.5rem;
+    }
+} */
   
   /* ================= MEDIA QUERIES (SMALL DEVICES) ============== */
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 990px) {
+    .about__container {
+      grid-template-columns: 1fr 2fr ;
+      gap: 5%;
+  }
       .about__me {
-          width: 100%;
+          /* width: 100%; */
           margin: 0 auto 3rem;
       }
       
@@ -272,9 +292,38 @@
           margin: 1.5rem 0;
       }
 
-      .header__socials,
+      /* .header__socials,
     .scroll__down {
         display: none;
-    }
+    } */
   }
   
+
+  @media screen and (max-width: 800px) {
+    .about__container {
+      grid-template-columns: 1fr;
+      gap: 5%;
+  }
+      .about__me {
+          /* width: 100%; */
+          margin: 0 auto 3rem;
+      }
+      
+      .about__cards {
+          grid-template-columns: 1fr 1fr;
+          gap: 1rem;
+      }
+  
+      .about__content {
+          text-align: center;
+      }
+  
+      .about__content p {
+          margin: 1.5rem 0;
+      }
+
+      /* .header__socials,
+    .scroll__down {
+        display: none;
+    } */
+  }
