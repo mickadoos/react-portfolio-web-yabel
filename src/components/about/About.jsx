@@ -14,10 +14,8 @@ const About = () => {
     <section id="about">
       <h5>Hi I'm</h5>
       <h2>Yabel Rodríguez</h2>
+      <h2>Full Stack Developer</h2>
       <div className="container about__container">
-
-       
-
         <div className="about__content">
           <div className="about__cards">
             <article className="about__card">
@@ -57,7 +55,7 @@ const About = () => {
           <div className="about__me-image">
             <img src={ME} alt="" />
             <h2>Yabel Rodriguez<br></br><span>Full Stack Developer</span></h2>
-            <a href="# ">Hire me</a>
+            <a href="#contact">Hire me</a>
           </div>
         </div>
       </div>

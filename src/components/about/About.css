@@ -1,14 +1,16 @@
 #about > h2, #about > h5 {
   text-align: start;
   margin-left: 10%;
+  font-size: 2rem;
 }
 
 #about > h2 {
-  
+  margin-top: 0;
 }
 
 #about > h5 {
-  
+  font-size: 1.3rem;
+  font-weight: 100;
 }
 
 #about {
@@ -303,6 +305,9 @@
     .about__container {
       grid-template-columns: 1fr;
       gap: 5%;
+      /* grid-auto-flow: dense; */
+      display: flex;
+      flex-direction: column-reverse;
   }
       .about__me {
           /* width: 100%; */
@@ -310,7 +315,7 @@
       }
       
       .about__cards {
-          grid-template-columns: 1fr 1fr;
+          grid-template-columns: 1fr 1fr 1fr;
           gap: 1rem;
       }
   
