@@ -164,9 +164,15 @@
     background: var(--color-bg-variant);
     border: 1px solid transparent;
     border-radius: 1rem;
-    padding: 2rem;
+    padding: 1rem;
     text-align: center;
     transition: var(--transition);
+  }
+
+  .about__card-image {
+    border-radius: 1rem;
+    overflow: hidden;
+    margin-bottom: 0.5rem;
   }
   
   .about__card:hover {

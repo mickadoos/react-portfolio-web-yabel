@@ -16,7 +16,7 @@ const Nav = () => {
       {/* // 10.1 create an anchor tag for every section and use the react icons imported */}
       {/* // 10.1 also refer to the id of every section (that is about to create) */}
       {/* <a href='# ' onClick={() => setActiveNav('#')} className={activeNav === '#' ? 'active' : ''}><AiOutlineHome/></a>  // 12.2 set attribute onClick that when the anchor is clicked calls the useState function to change the state variable and use a ternary to change the classname of the anchor depeneding on the state */}
-      <a href='#about' onClick={() => setActiveNav('#about')} className={activeNav === '#about' ? 'active' : ''}><AiOutlineUser/></a>
+      <a href='# ' onClick={() => setActiveNav('#about')} className={activeNav === '#about' ? 'active' : ''}><AiOutlineUser/></a>
       <a href='#skills' onClick={() => setActiveNav('#skills')} className={activeNav === '#skills' ? 'active' : ''}><BiBook/></a>
       <a href='#portfolio' onClick={() => setActiveNav('#portfolio')} className={activeNav === '#portfolio' ? 'active' : ''}><RiServiceLine/></a>
       <a href='#contact' onClick={() => setActiveNav('#contact')} className={activeNav === '#contact' ? 'active' : ''}><BiMessageSquareDetail/></a>
