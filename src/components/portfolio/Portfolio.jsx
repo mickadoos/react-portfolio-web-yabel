@@ -2,6 +2,7 @@
 // 3.0 create all components folders with .jsx file and .css --- then on .jsx file type racfe, press tab and import the .css file 
 import React from "react";
 import "./Portfolio.css";
+// import "./Portfolio2.css";
 import DPLANIMG from "../../assets/dplan-project-image.png";
 import GameProjectIMG from '../../assets/game-project-x-image.png';
 

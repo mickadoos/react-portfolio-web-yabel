@@ -38,10 +38,6 @@
   } */
 
   .about__me {
-    /* border-radius: 2rem;
-    overflow: hidden;
-    transform: rotate(10deg);
-    transition: var(--transition); */
     position: relative;
     width: 400px;
     height: 400px;
@@ -149,10 +145,6 @@
     letter-spacing: 0.2em;
     color: #070a1c;
   }
-  
-  /* .about__me-image:hover {
-    transform: rotate(0deg);
-  } */
   
   .about__cards {
     display: grid;

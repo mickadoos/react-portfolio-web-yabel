@@ -1,6 +1,7 @@
 // 13.0 create skills component .jsx and .css and copy the experience component and change the name
 import React from 'react'
 import './Skills.css'
+// import './Skills2.css'
 import { BsFillPatchCheckFill } from "react-icons/bs";
 
 

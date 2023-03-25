@@ -1,6 +1,7 @@
 // 3.0 create all components folders with .jsx file and .css --- then on .jsx file type racfe, press tab and import the .css file
 import React from "react";
-import "./About.css";
+// import "./About.css";
+import "./About2.css";
 import ME from "../../assets/foto-yabel.JPG";
 import CTA from "../header/CTA.jsx"; // 7.0 import the CTA component and use it
 // import HeaderSocial from "../header/HeaderSocials.jsx";
